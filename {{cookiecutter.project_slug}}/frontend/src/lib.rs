@@ -9,6 +9,7 @@ use wasm_bindgen::prelude::*;
 use controller::update;
 use view::view;
 
+
 pub struct Model {
     dummy: String
 }

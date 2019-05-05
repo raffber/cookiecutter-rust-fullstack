@@ -1,10 +1,13 @@
 {
-    "full_name": "Raphael Bernhard",
-    "email": "beraphae@gmail.com",
-    "github_username": "raffber",
+    "full_name": "John Doe",
+    "email": "john.doe@example.com",
     "project_name": "Fullstack Rust Webapp",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "Fullstack rust web application using rocket and seed",
     "version": "0.1.0",
-    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+    "deploy_directory": "/var/lib/www-data/app",
+    "deploy_hostname": "example.com",
+    "deploy_user": "www-data",
+    "deploy_group": "www-data"
   }
