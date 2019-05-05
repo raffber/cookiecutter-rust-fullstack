@@ -1,0 +1,9 @@
+[development]
+address = "localhost"
+assets_dir = "../build/static/"
+serve_static = true
+
+[production]
+address = "localhost"
+assets_dir = "static/"
+serve_static = false

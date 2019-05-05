@@ -1,0 +1,15 @@
+[Unit]
+Description={{cookiecutter.project_short_description}}
+
+[Service]
+User={{cookiecutter.deploy_user}}
+Group={{cookiecutter.deploy_group}}
+WorkingDirectory={{cookiecutter.deploy_directory}}
+Environment="ROCKET_ENV=prod"
+Environment="ROCKET_ADDRESS=127.0.0.1"
+Environment="ROCKET_PORT=42387"
+Environment="ROCKET_LOG=critical"
+ExecStart={{cookiecutter.deploy_directory}}/backend
+
+[Install]
+WantedBy=multi-user.target

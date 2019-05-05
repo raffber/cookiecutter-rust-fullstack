@@ -1,0 +1,10 @@
+{
+    "full_name": "Raphael Bernhard",
+    "email": "beraphae@gmail.com",
+    "github_username": "raffber",
+    "project_name": "Fullstack Rust Webapp",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Fullstack rust web application using rocket and seed",
+    "version": "0.1.0",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+  }

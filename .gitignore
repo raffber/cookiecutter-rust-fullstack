@@ -1,0 +1,6 @@
+build
+__pycache__
+.wasp
+frontend/\.directory
+.idea
+node_modules
