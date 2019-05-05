@@ -1,6 +1,6 @@
-# Torrentsearcher
+# Cookiecutter template for Rust full stack web application
 
-`torrentsearcher` is a full stack rust application, using `rocket` in the backend and `seed` in the frontend.
+This template provides a full stack rust application, using `rocket` in the backend and `seed` in the frontend.
 The project is split into 3 subprojects:
 
  * `backend` - Implements the server side using the `rocket` web framework.
@@ -37,8 +37,8 @@ $ ./wasp run
 Or just by running
 
 ```
-cd backend
-cargo run
+$ cd backend
+$ cargo run
 ```
 
 The build tool also provides an automatic rebuild in case files were changed on the drive. It will automatically rebuild the `frontend` and `backend` projects as required and restart the webserver. Run it with:
