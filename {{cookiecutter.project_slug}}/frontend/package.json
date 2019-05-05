@@ -1,9 +1,8 @@
 {
   "name": "frontend",
-  "version": "0.1.0",
-  "description": "Full-stack rust application",
-  "author": "Raphael Bernhard <beraphae@gmail.com>",
-  "license": "MPLv2",
+  "version": "{{cookiecutter.version}}",
+  "description": "Frontend for {{cookiecutter.project_slug}}",
+  "author": "{{cookiecutter.full_name}} <{{cookiecutter.email}}>",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "css-loader": "^2.1.1",
